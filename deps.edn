@@ -1,0 +1,10 @@
+{:deps
+ {
+  org.clojure/clojure         {:mvn/version "1.10.2-rc1"}
+  org.clojure/data.json       {:mvn/version "1.0.0"}
+  java-http-clj/java-http-clj {:mvn/version "0.4.1"}
+  org.clojure/core.async      {:mvn/version "1.2.603"}
+  dev.jt/lob                  {:git/url "https://github.com/jjttjj/lob.git"
+                               :sha     "f616f3c0728f0a9cd016093d552e1c9aa0fb72a8"}
+
+  }}
