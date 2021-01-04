@@ -39,7 +39,7 @@ The most notable dependency is probably [java-http-clj](https://github.com/schme
 ### Requires
 
 ```clojure
-(ns tic.lob1
+(ns lmalob
   (:require [java-http-clj.core :as http]
             [java-http-clj.websocket :as ws]
             [clojure.data.json :as json]
