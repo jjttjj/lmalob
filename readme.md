@@ -440,18 +440,26 @@ We can now finally get a real time LOB!
 (a/poll! lobs)
 
 
-
-{:dev.jt.lob/asks
- {31331.14M {#uuid "..." [#object[java.time.Instant "..."] 0.51M]},
-  31331.81M {#uuid "..." [#object[java.time.Instant "..."] 0.75631773M]},
-  31332.47M {#uuid "..." [#object[java.time.Instant "..."] 0.06622319M]},
-  ...},
- :dev.jt.lob/bids
- {31326.7M  {#uuid "..." [#object[java.time.Instant "..."] 0.02155921M]},
-  31323.98M {#uuid "..." [#object[java.time.Instant "..."] 0.04055263M]},
-  31323.97M {#uuid "..." [#object[java.time.Instant "..."] 0.158M]},
-  ...},
- :sequence 19373322709}
+;;output:
+{:dev.jt.lob/asks {30996.99M {#uuid "a5e7..." [#object[java.time.Instant "0x.." "...43:47.866601Z"]
+                                               0.70064346M]},
+                   30997M    {#uuid "30db..." [#object[java.time.Instant "0x.." "...43:47.727023Z"]
+                                               0.05447185M]},
+                   30997.01M {#uuid "4283..." [#object[java.time.Instant "0x.." "...43:47.488915Z"]
+                                               0.00455823M]},
+                   30999.92M {#uuid "b752..." [#object[java.time.Instant "0x.." "...43:47.875504Z"]
+                                               0.36M]},
+                   ...},
+ :dev.jt.lob/bids {31426.38M {},
+                   30990.7M  {#uuid "ab4c..." [#object[java.time.Instant "0x.." "...43:48.103257Z"]
+                                               0.01388998M]},
+                   30990.69M {#uuid "4d57..." [#object[java.time.Instant "0x.." "...43:48.085675Z"]
+                                               0.161M]},
+                   30990.64M {#uuid "e2d0..." [#object[java.time.Instant "0x.." "...43:47.394468Z"]
+                                               0.25M]},
+                   ...},
+ :sequence        19378091372,
+ :time            #object[java.time.Instant "0x..." "...43:48.182824Z"]}
 
 ```
 
