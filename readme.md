@@ -73,7 +73,7 @@ First we will need a way to interact with both the REST and websocket APIs coinb
 
 ### API notes
 
-Coinbase is kind enough to offer their real data publicly in . We don't technically need to use the sandbox URLs, since we're not using any endpoints that are potentially dangerous (such as placing orders). However, the full LOB data we're requesting is huge (~20MB per request), and the sandbox versions are significantly smaller (1-2MB) so it is polite of us (and prevents our IP from being potentially banned for abuse) to use the sandbox endpoints until we ready to try things out with the real feed.
+Coinbase is kind enough to offer their real data publicly. We don't technically need to use the sandbox URLs, since we're not using any endpoints that are potentially dangerous (such as placing orders). However, the full LOB data we're requesting is huge (~20MB per request), and the sandbox versions are significantly smaller (1-2MB) so it is polite of us (and prevents our IP from being potentially banned for abuse) to use the sandbox endpoints until we ready to try things out with the real feed.
 
 ```clojure
 (def rest-url "https://api.pro.coinbase.com")
